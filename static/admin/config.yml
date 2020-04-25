@@ -1,0 +1,81 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+# These lines should *not* be indented
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+
+collections: # A list of collections the CMS should be able to edit
+
+  - name: "post" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "content/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Audi-A1-8X" # Used in routes, e.g., /admin/collections/blog
+    label: "Кодировки Audi A1 8X" # Used in the UI
+    folder: "content/docs/car/Audi A1 8X" # Путь к папке с контентом
+    create: true # Пользователи могут создовать страницы
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "docs"}
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Веса порядок публикации", name: "weight", widget: "string"}
+      - {label: "SEO-description", name: "description", widget: "markdown"}
+      - {label: "SEO-keywords", name: "keywords", widget: "markdown"}
+      - {label: "Дата публикации", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Audi-A1-GB" # Used in routes, e.g., /admin/collections/blog
+    label: "Кодировки Audi A1 GB" # Used in the UI
+    folder: "content/docs/car/Audi-A1-GB" # Путь к папке с контентом
+    create: true # Пользователи могут создовать страницы.
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "docs"}
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Веса порядок публикации", name: "weight", widget: "string"}
+      - {label: "SEO-description", name: "description", widget: "markdown"}
+      - {label: "SEO-keywords", name: "keywords", widget: "markdown"}
+      - {label: "Дата публикации", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Audi-A3-8P" # Used in routes, e.g., /admin/collections/blog
+    label: "Кодировки Audi-A3-8P" # Used in the UI
+    folder: "content/docs/car/Audi A3 8P" # Путь к папке с контентом
+    create: true # Пользователи могут создовать страницы
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "docs"}
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Веса порядок публикации", name: "weight", widget: "string"}
+      - {label: "SEO-description", name: "description", widget: "markdown"}
+      - {label: "SEO-keywords", name: "keywords", widget: "markdown"}
+      - {label: "Дата публикации", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Audi-A3-8V" # Used in routes, e.g., /admin/collections/blog
+    label: "Кодировки Audi-A3-8V" # Used in the UI
+    folder: "content/docs/car/Audi-A3-8V" # Путь к папке с контентом
+    create: true # Пользователи могут создовать страницы
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "docs"}
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Веса порядок публикации", name: "weight", widget: "string"}
+      - {label: "SEO-description", name: "description", widget: "markdown"}
+      - {label: "SEO-keywords", name: "keywords", widget: "markdown"}
+      - {label: "Дата публикации", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
