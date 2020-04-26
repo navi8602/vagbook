@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Активация Bluetooth, если установлен MMI 3g
+title: Активация Bluetooth, если установлен MMI 3G
 weight: "1"
 description: Активация Bluetooth, если установлен MMI 3g
 keywords: Активация Bluetooth, если установлен MMI 3g
