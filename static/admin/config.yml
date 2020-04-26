@@ -67,9 +67,23 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Audi-A3-8V" # Used in routes, e.g., /admin/collections/blog
-    label: "Кодировки Audi-A3-8V" # Used in the UI
+    label: "Кодировки Audi A3 8V" # Used in the UI
     folder: "content/docs/car/Audi-A3-8V" # Путь к папке с контентом
     create: true # Пользователи могут создовать страницы
+    slug: "{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "docs"}
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Веса порядок публикации", name: "weight", widget: "string"}
+      - {label: "SEO-description", name: "description", widget: "markdown"}
+      - {label: "SEO-keywords", name: "keywords", widget: "markdown"}
+      - {label: "Дата публикации", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "Audi-A4-8K" # Used in routes, e.g., /admin/collections/blog
+    label: "Кодировки Audi A4 8K" # Used in the UI
+    folder: "content/docs/car/Audi-A4-8K" # Путь к папке с контентом
+    create: true # Пользователи могут создовать страницы.
     slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "docs"}
