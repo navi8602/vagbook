@@ -40,7 +40,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "Audi-A1-GB" # Used in routes, e.g., /admin/collections/blog
     label: "Кодировки Audi A1 GB" # Used in the UI
-    folder: "content/docs/car/Audi-A1-GB" # Путь к папке с контентом
+    folder: "content/docs/car/Audi A1 GB" # Путь к папке с контентом
     create: true # Пользователи могут создовать страницы.
     slug: "{{slug}}"
     fields:
