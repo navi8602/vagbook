@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f526bed-cc20-4ed7-9cf5-5d641e9f1f6e/deploy-status)](https://app.netlify.com/sites/vagbook/deploys)
