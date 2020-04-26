@@ -68,7 +68,7 @@ collections: # A list of collections the CMS should be able to edit
 
   - name: "Audi-A3-8V" # Used in routes, e.g., /admin/collections/blog
     label: "Кодировки Audi A3 8V" # Used in the UI
-    folder: "content/docs/car/Audi-A3-8V" # Путь к папке с контентом
+    folder: "content/docs/car/Audi A3 8V" # Путь к папке с контентом
     create: true # Пользователи могут создовать страницы
     slug: "{{slug}}"
     fields:
