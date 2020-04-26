@@ -53,7 +53,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "Audi-A3-8P" # Used in routes, e.g., /admin/collections/blog
-    label: "Кодировки Audi-A3-8P" # Used in the UI
+    label: "Кодировки Audi A3 8P" # Used in the UI
     folder: "content/docs/car/Audi A3 8P" # Путь к папке с контентом
     create: true # Пользователи могут создовать страницы
     slug: "{{slug}}"
