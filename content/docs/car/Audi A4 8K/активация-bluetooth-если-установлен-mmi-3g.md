@@ -2,11 +2,11 @@
 layout: docs
 title: Активация Bluetooth, если установлен MMI 3G
 weight: "1"
-description: Активация Bluetooth, если установлен MMI 3g
-keywords: Активация Bluetooth, если установлен MMI 3g
+description: Активация Bluetooth, если установлен MMI 3G
+keywords: Активация Bluetooth, если установлен MMI 3G
 date: 2020-04-26T18:08:12.725Z
 ---
-## Активация Bluetooth, если установлен MMI 3g
+## Активация Bluetooth, если установлен MMI 3G
 
 {{< hint info >}}С Audi A4 8K и встроенной навигационной системой PLUS MMI 3g у вас есть возможность включить Bluetooth. После активации доступна полная функциональность Bluetooth.{{< /hint >}}
 
