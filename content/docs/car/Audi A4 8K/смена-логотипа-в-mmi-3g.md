@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Смена логотипа в MMI 3G
-weight: "3"
+weight: "4"
 description: Смена логотипа в MMI 3G
 keywords: Смена логотипа в MMI 3G
 date: 2020-04-26T18:56:16.480Z
