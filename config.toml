@@ -50,4 +50,4 @@ title = "🚗 VagBook-Читай кодируй"
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
   # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
   # Theme will print warning if page referenced in markdown does not exists.
-  BookPortableLinks = true
+  BookPortableLinks = false
