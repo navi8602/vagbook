@@ -24,7 +24,7 @@ keywords: Кодирование автомобилей VAG, кодирован�
   кодирование Audi MMI, кодирование скрытого меню
 date: 2020-04-04T19:54:18.929Z
 ---
-![Audi A3 8V](/images/uploads/audi-a3-8p.jpeg "Audi A3 8V")
+![Audi A3 8V](/images/uploads/audi-a3-8v.jpg "Audi A3 8V")
 
 ## Audi A3 8V
 
