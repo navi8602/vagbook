@@ -7,7 +7,6 @@ title = "🚗 VagBook-Читай кодируй"
   filename = "sitemap.xml"
   priority = 0.5
 
-
 [params]
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
